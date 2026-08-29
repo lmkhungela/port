@@ -1,0 +1,5 @@
+# HTTrack Website Copier Cookie File
+# This file format is compatible with Netscape cookies
+www.cosmos.studio	TRUE	/	FALSE	1999999999	_cfuvid	R.zbsZMpWp5g8PhPW6yBSZCWdujWt5i7WieW8ljy6tk-1787901482.6248906-1.0.1.1-nG54T_T10nbPCUGHkAZbsDTJcwbDU7TXFl4H1Ct3ae4
+www.cosmos.studio	TRUE	/	FALSE	1999999999	SameSite	None
+

@@ -1,0 +1,159 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600" font-family="Segoe UI,Arial,sans-serif">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#fbe3f0"/><stop offset="1" stop-color="#e8e8ee"/>
+    </linearGradient>
+    <linearGradient id="hdr" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#db2777"/><stop offset="1" stop-color="#ec4899"/>
+    </linearGradient>
+  </defs>
+
+  <!-- page background -->
+  <rect width="800" height="600" fill="url(#bg)"/>
+  <text x="400" y="588" text-anchor="middle" font-size="14" font-weight="700" letter-spacing="3" fill="#db2777" opacity="0.9">WORKFORCE ANALYTICS · HR</text>
+
+  <!-- browser window -->
+  <rect x="60" y="34" width="680" height="520" rx="14" fill="#ffffff" stroke="#c9c3d6" stroke-width="2"/>
+  <!-- title bar -->
+  <rect x="60" y="34" width="680" height="38" rx="14" fill="#f1edf6"/>
+  <rect x="60" y="48" width="680" height="24" fill="#f1edf6"/>
+  <circle cx="78" cy="53" r="5" fill="#FF5F56"/><circle cx="94" cy="53" r="5" fill="#FFBD2E"/><circle cx="110" cy="53" r="5" fill="#27C93F"/>
+  <rect x="200" y="43" width="380" height="20" rx="10" fill="#ffffff" stroke="#d9d2e6" stroke-width="1"/>
+  <text x="212" y="57" font-size="11" fill="#9a93a8">lulasync · workforce-analytics · HR</text>
+
+  <!-- dark sidebar -->
+  <rect x="60" y="72" width="168" height="482" fill="#241f33"/>
+  <rect x="74" y="86" width="26" height="26" rx="6" fill="#ec4899"/>
+  <text x="108" y="105" font-size="14" font-weight="800" fill="#fff">LulaHR</text>
+  <g font-size="12">
+    <rect x="72" y="124" width="144" height="24" rx="6" fill="#ec4899" opacity="0.35"/>
+    <text x="84" y="140" fill="#fff" font-weight="700">Dashboard</text>
+    <text x="84" y="166" fill="#b9b3c9">Employees</text>
+    <text x="84" y="192" fill="#b9b3c9">Recruitment</text>
+    <text x="84" y="218" fill="#b9b3c9">Attendance</text>
+    <text x="84" y="244" fill="#b9b3c9">Performance</text>
+    <text x="84" y="270" fill="#b9b3c9">Payroll</text>
+    <text x="84" y="296" fill="#b9b3c9">Reports</text>
+    <text x="84" y="322" fill="#b9b3c9">Settings</text>
+  </g>
+  <!-- sidebar profile -->
+  <circle cx="90" cy="526" r="14" fill="#ec4899" opacity="0.4"/>
+  <text x="90" y="530" text-anchor="middle" font-size="11" fill="#fff" font-weight="700">HR</text>
+  <text x="112" y="523" font-size="11" fill="#d5d0e0" font-weight="700">HR Manager</text>
+  <text x="112" y="537" font-size="9" fill="#8f88a3">Johannesburg</text>
+
+  <!-- content area -->
+  <text x="252" y="88" font-size="20" font-weight="900" fill="#241f33">Workforce Analytics</text>
+  <text x="252" y="104" font-size="11" fill="#8f88a3">Headcount 486 · Turnover 14% · 34 open roles</text>
+  <rect x="596" y="74" width="120" height="26" rx="6" fill="#fde7f2" stroke="#ec4899" stroke-width="1"/>
+  <text x="656" y="92" text-anchor="middle" font-size="10" font-weight="800" fill="#db2777">EXPORT PDF</text>
+
+  <!-- KPI cards row -->
+  <g>
+    <rect x="252" y="114" width="112" height="54" rx="9" fill="#fdf7fb" stroke="#ead9e6" stroke-width="1"/>
+    <text x="262" y="132" font-size="9" font-weight="700" fill="#8f88a3">HEADCOUNT</text>
+    <text x="262" y="154" font-size="17" font-weight="900" fill="#241f33">486</text>
+    <rect x="262" y="158" width="40" height="5" rx="2.5" fill="#ec4899"/>
+
+    <rect x="372" y="114" width="112" height="54" rx="9" fill="#fdf7fb" stroke="#ead9e6" stroke-width="1"/>
+    <text x="382" y="132" font-size="9" font-weight="700" fill="#8f88a3">OPEN ROLES</text>
+    <text x="382" y="154" font-size="17" font-weight="900" fill="#241f33">34</text>
+    <rect x="382" y="158" width="26" height="5" rx="2.5" fill="#a78bfa"/>
+
+    <rect x="492" y="114" width="112" height="54" rx="9" fill="#fdf7fb" stroke="#ead9e6" stroke-width="1"/>
+    <text x="502" y="132" font-size="9" font-weight="700" fill="#8f88a3">ATTENDANCE</text>
+    <text x="502" y="154" font-size="17" font-weight="900" fill="#241f33">93.5%</text>
+    <rect x="502" y="158" width="50" height="5" rx="2.5" fill="#34d399"/>
+
+    <rect x="612" y="114" width="112" height="54" rx="9" fill="#fdf7fb" stroke="#ead9e6" stroke-width="1"/>
+    <text x="622" y="132" font-size="9" font-weight="700" fill="#8f88a3">PAYROLL</text>
+    <text x="622" y="154" font-size="17" font-weight="900" fill="#241f33">R 2.8M</text>
+    <rect x="622" y="158" width="44" height="5" rx="2.5" fill="#f59e0b"/>
+  </g>
+
+  <!-- headcount by department bar chart -->
+  <rect x="252" y="182" width="286" height="170" rx="10" fill="#fff" stroke="#e6deeb" stroke-width="1"/>
+  <text x="266" y="202" font-size="12" font-weight="800" fill="#241f33">Headcount by department</text>
+  <text x="266" y="216" font-size="9" fill="#8f88a3">Distribution across the SA business</text>
+  <g>
+    <!-- bars -->
+    <rect x="272" y="292" width="30" height="46" rx="3" fill="#ec4899"/>
+    <rect x="310" y="304" width="30" height="34" rx="3" fill="#a78bfa"/>
+    <rect x="348" y="282" width="30" height="56" rx="3" fill="#f59e0b"/>
+    <rect x="386" y="314" width="30" height="24" rx="3" fill="#34d399"/>
+    <rect x="424" y="296" width="30" height="42" rx="3" fill="#60a5fa"/>
+    <rect x="462" y="308" width="30" height="30" rx="3" fill="#f472b6"/>
+    <text x="287" y="344" text-anchor="middle" font-size="9" fill="#8f88a3">Sales</text>
+    <text x="325" y="344" text-anchor="middle" font-size="9" fill="#8f88a3">IT</text>
+    <text x="363" y="344" text-anchor="middle" font-size="9" fill="#8f88a3">Ops</text>
+    <text x="401" y="344" text-anchor="middle" font-size="9" fill="#8f88a3">Fin</text>
+    <text x="439" y="344" text-anchor="middle" font-size="9" fill="#8f88a3">HR</text>
+    <text x="477" y="344" text-anchor="middle" font-size="9" fill="#8f88a3">Mkt</text>
+  </g>
+  <!-- values on bars -->
+  <text x="287" y="288" text-anchor="middle" font-size="9" font-weight="800" fill="#241f33">112</text>
+  <text x="325" y="300" text-anchor="middle" font-size="9" font-weight="800" fill="#241f33">84</text>
+  <text x="363" y="278" text-anchor="middle" font-size="9" font-weight="800" fill="#241f33">131</text>
+  <text x="401" y="310" text-anchor="middle" font-size="9" font-weight="800" fill="#241f33">62</text>
+  <text x="439" y="292" text-anchor="middle" font-size="9" font-weight="800" fill="#241f33">98</text>
+  <text x="477" y="304" text-anchor="middle" font-size="9" font-weight="800" fill="#241f33">74</text>
+
+  <!-- recruitment funnel -->
+  <rect x="548" y="182" width="176" height="170" rx="10" fill="#fff" stroke="#e6deeb" stroke-width="1"/>
+  <text x="562" y="202" font-size="12" font-weight="800" fill="#241f33">Recruitment funnel</text>
+  <text x="562" y="216" font-size="9" fill="#8f88a3">Applications this quarter</text>
+  <g font-size="10" font-weight="700">
+    <rect x="566" y="230" width="150" height="16" rx="4" fill="#fbcfe8"/>
+    <text x="572" y="242" fill="#831843">Applications 640</text>
+    <rect x="566" y="250" width="120" height="16" rx="4" fill="#f9a8d4"/>
+    <text x="572" y="262" fill="#831843">Interviews 208</text>
+    <rect x="566" y="270" width="92" height="16" rx="4" fill="#f472b6"/>
+    <text x="572" y="282" fill="#4a044e">Assessments 96</text>
+    <rect x="566" y="290" width="64" height="16" rx="4" fill="#ec4899"/>
+    <text x="572" y="302" fill="#fff">Offers 41</text>
+    <rect x="566" y="310" width="48" height="16" rx="4" fill="#be185d"/>
+    <text x="572" y="322" fill="#fff">Hired 34</text>
+  </g>
+  <text x="562" y="344" font-size="9" fill="#8f88a3">Offer acceptance 83%</text>
+
+  <!-- payroll + performance bottom row -->
+  <rect x="252" y="364" width="286" height="140" rx="10" fill="#fff" stroke="#e6deeb" stroke-width="1"/>
+  <text x="266" y="384" font-size="12" font-weight="800" fill="#241f33">Skills gap · critical roles</text>
+  <g font-size="10">
+    <text x="266" y="404" fill="#241f33">Software Engineers</text>
+    <rect x="266" y="408" width="150" height="6" rx="3" fill="#f1edf6"/>
+    <rect x="266" y="408" width="120" height="6" rx="3" fill="#ec4899"/>
+    <text x="424" y="414" text-anchor="end" fill="#8f88a3">12 open</text>
+
+    <text x="266" y="432" fill="#241f33">Data Analysts</text>
+    <rect x="266" y="436" width="150" height="6" rx="3" fill="#f1edf6"/>
+    <rect x="266" y="436" width="98" height="6" rx="3" fill="#a78bfa"/>
+    <text x="424" y="442" text-anchor="end" fill="#8f88a3">8 open</text>
+
+    <text x="266" y="460" fill="#241f33">Electricians</text>
+    <rect x="266" y="464" width="150" height="6" rx="3" fill="#f1edf6"/>
+    <rect x="266" y="464" width="130" height="6" rx="3" fill="#f59e0b"/>
+    <text x="424" y="470" text-anchor="end" fill="#8f88a3">9 open</text>
+
+    <text x="266" y="488" fill="#241f33">Warehouse Supervisors</text>
+    <rect x="266" y="492" width="150" height="6" rx="3" fill="#f1edf6"/>
+    <rect x="266" y="492" width="82" height="6" rx="3" fill="#34d399"/>
+    <text x="424" y="498" text-anchor="end" fill="#8f88a3">5 open</text>
+  </g>
+
+  <!-- performance scorecards + payroll -->
+  <rect x="548" y="364" width="176" height="140" rx="10" fill="#fff" stroke="#e6deeb" stroke-width="1"/>
+  <text x="562" y="384" font-size="12" font-weight="800" fill="#241f33">Payroll summary</text>
+  <g font-size="11">
+    <text x="562" y="406" fill="#8f88a3">Monthly payroll</text>
+    <text x="710" y="406" text-anchor="end" font-weight="900" fill="#241f33">R 2.8M</text>
+    <text x="562" y="426" fill="#8f88a3">Avg salary</text>
+    <text x="710" y="426" text-anchor="end" font-weight="900" fill="#241f33">R 21,400</text>
+    <text x="562" y="446" fill="#8f88a3">UIF / taxes</text>
+    <text x="710" y="446" text-anchor="end" font-weight="900" fill="#241f33">R 612k</text>
+    <text x="562" y="466" fill="#8f88a3">Overtime</text>
+    <text x="710" y="466" text-anchor="end" font-weight="900" fill="#241f33">R 184k</text>
+  </g>
+  <rect x="562" y="478" width="150" height="16" rx="4" fill="#fde7f2" stroke="#ec4899" stroke-width="1"/>
+  <text x="637" y="490" text-anchor="middle" font-size="9" font-weight="800" fill="#db2777">VIEW FULL REPORT</text>
+</svg>
